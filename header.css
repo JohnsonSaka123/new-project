@@ -1,0 +1,29 @@
+*{
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.logo{
+    font-size: 20px;
+    font-weight: 600;
+}
+button{
+    font-style: bold;
+    border-radius: 10px;
+    border-color: none;
+    color: brown;
+    font-size: 12px;
+    height: 20px;
+    
+}
