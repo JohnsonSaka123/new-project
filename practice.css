@@ -1,0 +1,73 @@
+p{
+    color: blueviolet;
+    background-color: black;
+    text-align: center;
+    text-align-last: left;
+    direction: ltr;
+    vertical-align: bottom;
+    text-indent: 20px;
+    line-height: 40px;
+    word-spacing: 10px;
+}
+h1{
+    color: aqua;
+    background-color: aliceblue;
+    text-transform:none;
+}
+h2{
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgb(25,24,200);
+    font-style: oblique;
+}
+a:link{
+    color: brown;
+}
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color:black;
+}
+
+a:active{
+    color: rosybrown;
+}
+ol{
+    background-color: blue;
+    padding: 20px;
+    
+}
+ol li{
+    color: brown;
+    background-color: chartreuse;
+    padding: 5px;
+    margin-left: 35px;
+}
+table , th ,td {
+    border: 2px solid;
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+    
+}
+th{
+    height: 30px;
+    text-align: center;
+    background-color: aqua;
+    color: black;
+}
+td{
+    text-align: center
+    
+}
+th , td{
+    padding: 10px;
+}
+tr:hover{
+    background-color: coral;
+}
+tr:nth-child(even){
+    background-color: blueviolet;
+}

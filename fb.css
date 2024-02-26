@@ -1,1 +1,78 @@
-
+.fb-container{
+  display:flex;
+  justify-content: space-evenly;
+}
+body{
+  height: auto;
+  padding: 0;
+  background: #fff;
+}
+.fb-intromessage ,.login-container{
+  margin :150px;
+}
+.login-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px inset grey;
+  width:400px;
+  padding: 50px;
+  box-sizing: border-box;
+  margin: 89px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.email-form{
+  margin-bottom: 10px;
+}
+.Password-form{
+  margin-bottom: 10px;
+}
+.button-login{
+  margin-bottom: 10px;
+  background: #0866FF;
+}
+.forgotlink{
+  margin-bottom: 10px;
+  
+}
+input{
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+button[type="submit"]{
+  
+  width:300px;
+  height: 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.create-button{
+  margin-bottom: 50px;
+}
+a{
+  text-decoration : none;
+  text-align :center;
+}
+.create-button{
+  width:200px;
+  height: 30px;
+} h2{
+  margin-left:10px;
+  font-family:  Arial, Helvetica, sans-serif;
+  color:#1C1E21;
+}
+img{
+  padding-left :-30px;
+}
