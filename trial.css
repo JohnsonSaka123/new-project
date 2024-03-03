@@ -1,0 +1,11 @@
+*{
+    width: 100%;
+}
+img{
+    float: right;
+    width: 150px;
+    height: 150px;
+    margin-left: 15px;
+    box-sizing: border-box;
+    padding-top: 2px;
+}

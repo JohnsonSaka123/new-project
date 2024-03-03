@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .saka{
+            margin:auto;
+            width: 20%;
+            height: 50px;
+            border: 2px solid green;
+            padding: 10px;
+            text-align: center;
+        }
+        img{
+            display: block;
+            width: 20%;
+            margin-left: auto;
+            margin-right:  auto;
+            margin-top: 10px;
+        }
+        ul>li{
+            list-style-type: circle;
+        }
+        /*.block1 p{
+            color: blue;
+        }
+        .block2 p{
+            color: chartreuse;
+        }*/
+        /*.block1 > p{
+            color: chartreuse;
+        }
+        .block2 > p{
+            color: brown;
+        }*/
+        .block2 + p {
+            color: brown;
+        }
+        .block1 + p {
+            color: blue; 
+        }
+        .pseudo:hover{
+            background-color:burlywood;
+            color: blue;
+        }
+        /*unvisited link*/
+       /* a:link{
+
+        }
+        /*visited link*/
+        /*a:visited{
+
+        }
+        a:hover{
+
+        }*/
+        div:hover{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="saka">
+        My name is Saka Johnson
+    </div>
+    <img src="JOHNSON-2.jpg" alt="Error loading message" >
+
+    <ul>
+        <li>Johnson</li>
+        <li>Saka</li>
+        <li>Kojo</li>
+    </ul>
+
+    <div class="block1">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, adipisci.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, hic!</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, facilis.</p>
+    <div class="block2">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, harum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, facilis.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, facilis.</p>
+
+    <!--pseudo classes-->
+    <p id="pseudo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex libero nulla, incidunt esse, quod quidem amet ipsam veniam facere tempore voluptate, excepturi recusandae rerum dicta atque dolores itaque exercitationem non officiis ipsum. Quam velit dolore dicta doloribus laudantium, quae quos laborum. Harum inventore vel sapiente quis reprehenderit nulla aliquam ipsum.</p>
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quae.
+    </div>
+</body>
+</html>
