@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox practice</title>
+    <style>
+        .flex-container{
+            display: flex;
+           /* flex-direction: row;
+            flex-wrap: wrap;*/
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+
+            
+        }
+        #jill{
+            background-color: blue;
+            color: white;
+        
+            flex-grow: 3;
+            
+        }
+        #john{
+            background-color: yellow;
+            color: white; 
+            flex-basis: 140px;
+            flex-shrink: 2;
+            
+            
+        }
+        #jane{
+            background-color: red;
+            color: white;
+            flex-grow: 3;
+            
+        }
+        #jack{
+            background-color: pink;
+            color: white;
+            flex-grow: 3;
+            
+            
+        }
+        div{
+            width: 100px;
+        }
+
+       /* .small-container1{
+            width: 100px;
+            height: 100px;
+            color: white;
+            background-color: bisque;
+            margin: 20px;
+        }*/
+    </style>
+</head>
+<body>
+   
+        <div class="flex-container">
+            <p id="jill">1.JILL</p>
+            <p id="john">2.JOHN</p>
+            <p id="jane">3.JANE</p>
+            <p id="jack">4.JACK</p>
+            
+        </div>
+   
+     
+   
+
+    <!--<nav class="flex-container">
+        <ul>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+        </ul>
+    </nav>-->
+   <!--
+         <div class="flex-container">
+        <div class="small-container1"></div>
+        <div>
+            <p>Hello world</p>
+        </div>
+
+        
+    </div>
+
+    <div class="flex-container">
+        <div class="small-container1"></div>
+        <div>
+            <p>Hello world</p>
+        </div>
+
+        
+    </div>
+   -->
+</body>
+</html>
